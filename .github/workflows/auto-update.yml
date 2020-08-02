@@ -1,7 +1,7 @@
 name: "Auto-update"
 on:
   schedule:
-    - cron:  '0 */3 * * *'
+    - cron:  '0 * * * *'
 jobs:
   check-and-push-updates:
     runs-on: ubuntu-latest
