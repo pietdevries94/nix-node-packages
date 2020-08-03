@@ -1,3 +1,4 @@
 [
-  "nativescript"
+  "nativescript",
+  "@vue/cli-init"
 ]
