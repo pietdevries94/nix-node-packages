@@ -1932,13 +1932,13 @@ let
         sha512 = "3Z4XhFZ3992uIq0XOqb9AreonueSYphE6oYbpt5+3u06JWklbsPkNv3ZKkP9Bz/r+1MWCaMoSQ28P85+1Yc77w==";
       };
     };
-    "follow-redirects-1.12.1" = {
+    "follow-redirects-1.13.0" = {
       name = "follow-redirects";
       packageName = "follow-redirects";
-      version = "1.12.1";
+      version = "1.13.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.12.1.tgz";
-        sha512 = "tmRv0AVuR7ZyouUHLeNSiO6pqulF7dYa3s19c6t+wz9LD69/uSzdMxJ2S91nTI9U3rt/IldxpzMOFejp6f0hjg==";
+        url = "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.13.0.tgz";
+        sha512 = "aq6gF1BEKje4a9i9+5jimNFIpq4Q1WiwBToeRK5NvZBd/TRsmW8BsJfOEGkr76TbOyPVD3OVDN910EcUNtRYEA==";
       };
     };
     "for-in-1.0.2" = {
@@ -6595,7 +6595,7 @@ in
       sources."find-up-1.1.2"
       sources."flatted-2.0.2"
       sources."flush-write-stream-1.1.1"
-      sources."follow-redirects-1.12.1"
+      sources."follow-redirects-1.13.0"
       sources."for-in-1.0.2"
       sources."forever-agent-0.6.1"
       sources."form-data-2.5.1"
@@ -7281,10 +7281,10 @@ in
   "@vue/cli-init" = nodeEnv.buildNodePackage {
     name = "_at_vue_slash_cli-init";
     packageName = "@vue/cli-init";
-    version = "4.4.6";
+    version = "4.5.2";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@vue/cli-init/-/cli-init-4.4.6.tgz";
-      sha512 = "Aon9z5X60dbIYL3aDEbbRzZENIy+fyaw9DwphzfYtQZHsbG0lwesPkZOCFfYjYAggbpy7ssDkm2wITkpgQUkDw==";
+      url = "https://registry.npmjs.org/@vue/cli-init/-/cli-init-4.5.2.tgz";
+      sha512 = "84il6ShANcTb3xemzF3qm4zvEw7/GMZjRWM2v/syysTavkBVsZEeLoMVYjmP3eJuCFk5oOgpNiwMUCu2gyoi6w==";
     };
     dependencies = [
       sources."absolute-0.0.1"
