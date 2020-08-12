@@ -7281,10 +7281,10 @@ in
   "@vue/cli-init" = nodeEnv.buildNodePackage {
     name = "_at_vue_slash_cli-init";
     packageName = "@vue/cli-init";
-    version = "4.5.2";
+    version = "4.5.3";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@vue/cli-init/-/cli-init-4.5.2.tgz";
-      sha512 = "84il6ShANcTb3xemzF3qm4zvEw7/GMZjRWM2v/syysTavkBVsZEeLoMVYjmP3eJuCFk5oOgpNiwMUCu2gyoi6w==";
+      url = "https://registry.npmjs.org/@vue/cli-init/-/cli-init-4.5.3.tgz";
+      sha512 = "mYFQxkWf3wJmJW/imH+TIVn12xCiMXbMKFKMchtHbY/WNuuwqLc3LpacagUnrG2tY4yJJG7/ckMbmk4V0uYx4A==";
     };
     dependencies = [
       sources."absolute-0.0.1"
