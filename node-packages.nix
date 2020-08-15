@@ -3787,13 +3787,13 @@ let
         sha512 = "+IluBC5K201+gRU85vFlUwX3PFShZAbAgDNp2ewJdWMVSppdo/Zih0ul2Ecky/X7b51J7LrrUAP+XOmOCvYZqA==";
       };
     };
-    "npm-registry-fetch-4.0.5" = {
+    "npm-registry-fetch-4.0.6" = {
       name = "npm-registry-fetch";
       packageName = "npm-registry-fetch";
-      version = "4.0.5";
+      version = "4.0.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/npm-registry-fetch/-/npm-registry-fetch-4.0.5.tgz";
-        sha512 = "yQ0/U4fYpCCqmueB2g8sc+89ckQ3eXpmU4+Yi2j5o/r0WkKvE2+Y0tK3DEILAtn2UaQTkjTHxIXe2/CSdit+/Q==";
+        url = "https://registry.npmjs.org/npm-registry-fetch/-/npm-registry-fetch-4.0.6.tgz";
+        sha512 = "SEp9m7fPe8FIKzhg2JS+xs+w4YY9mEwRlMcEZRELph7rdoygIQGY6B+g0+wdZqokHE8f57ZkexxYWqFO0FkfCw==";
       };
     };
     "npm-run-path-2.0.2" = {
@@ -6868,7 +6868,7 @@ in
       })
       sources."npm-packlist-1.4.8"
       sources."npm-pick-manifest-2.2.3"
-      (sources."npm-registry-fetch-4.0.5" // {
+      (sources."npm-registry-fetch-4.0.6" // {
         dependencies = [
           sources."lru-cache-5.1.1"
           sources."safe-buffer-5.2.1"
