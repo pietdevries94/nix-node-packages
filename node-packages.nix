@@ -103,13 +103,13 @@ let
         sha1 = "73b5eeca3fab653e3d3f9422b341ad42205dc965";
       };
     };
-    "ajv-6.12.3" = {
+    "ajv-6.12.4" = {
       name = "ajv";
       packageName = "ajv";
-      version = "6.12.3";
+      version = "6.12.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ajv/-/ajv-6.12.3.tgz";
-        sha512 = "4K0cK3L1hsqk9xIb2z9vs/XU+PGJZ9PNpJRDS9YLzmNdX6jmVPfamLvTJr0aDAusnHyCHO6MjzlkAsgtqp9teA==";
+        url = "https://registry.npmjs.org/ajv/-/ajv-6.12.4.tgz";
+        sha512 = "eienB2c9qVQs2KWexhkrdMLVDoIQCz5KSeLxwg9Lzk4DOfBtIK9PQwwufcsn1jjGuf9WZmqPMbGxOzfcuphJCQ==";
       };
     };
     "ansi-escapes-3.2.0" = {
@@ -7288,7 +7288,7 @@ in
     };
     dependencies = [
       sources."absolute-0.0.1"
-      sources."ajv-6.12.3"
+      sources."ajv-6.12.4"
       sources."ansi-escapes-3.2.0"
       sources."ansi-red-0.1.1"
       sources."ansi-regex-3.0.0"
