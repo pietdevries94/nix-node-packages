@@ -337,13 +337,13 @@ let
         sha1 = "59667f41fadd4f20ccbc2bb96b8d4f7f78ec0367";
       };
     };
-    "ast-types-0.13.4" = {
+    "ast-types-0.14.1" = {
       name = "ast-types";
       packageName = "ast-types";
-      version = "0.13.4";
+      version = "0.14.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ast-types/-/ast-types-0.13.4.tgz";
-        sha512 = "x1FCFnFifvYDDzTaLII71vG5uvDwgtmDTEVWAxrgeiR8VjMONcCXJx7E+USjDtHlwFmt9MysbqgF9b9Vjr6w+w==";
+        url = "https://registry.npmjs.org/ast-types/-/ast-types-0.14.1.tgz";
+        sha512 = "pfSiukbt23P1qMhNnsozLzhMLBs7EEeXqPyvPmnuZM+RMfwfqwDbSVKYflgGuVI7/VehR4oMks0igzdNAg4VeQ==";
       };
     };
     "async-1.2.1" = {
@@ -6379,7 +6379,7 @@ in
       sources."asn1-0.2.4"
       sources."assert-plus-1.0.0"
       sources."assign-symbols-1.0.0"
-      (sources."ast-types-0.13.4" // {
+      (sources."ast-types-0.14.1" // {
         dependencies = [
           sources."tslib-2.0.1"
         ];
