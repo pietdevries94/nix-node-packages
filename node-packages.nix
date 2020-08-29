@@ -5777,13 +5777,13 @@ let
         sha512 = "mlExGW4w71ebDJviH16lQLtZS32VKqsSfk80GCfUlwT/4/hNRFsoscrF/c++9xinkMzECL1uL9DDwXqFWkruPg==";
       };
     };
-    "underscore-1.10.2" = {
+    "underscore-1.11.0" = {
       name = "underscore";
       packageName = "underscore";
-      version = "1.10.2";
+      version = "1.11.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/underscore/-/underscore-1.10.2.tgz";
-        sha512 = "N4P+Q/BuyuEKFJ43B9gYuOj4TQUHXX+j2FqguVOpjkssLUUrnJofCcBccJSCoeturDoZU6GorDTHSvUDlSQbTg==";
+        url = "https://registry.npmjs.org/underscore/-/underscore-1.11.0.tgz";
+        sha512 = "xY96SsN3NA461qIRKZ/+qox37YXPtSBswMGfiNptr+wrt6ds4HaMw23TP612fEyGekRE6LNRiLYr/aqbHXNedw==";
       };
     };
     "union-value-1.0.1" = {
@@ -7210,7 +7210,7 @@ in
       sources."tweetnacl-0.14.5"
       sources."type-check-0.3.2"
       sources."typedarray-0.0.6"
-      sources."underscore-1.10.2"
+      sources."underscore-1.11.0"
       (sources."union-value-1.0.1" // {
         dependencies = [
           sources."is-extendable-0.1.1"
