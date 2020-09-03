@@ -1166,15 +1166,6 @@ let
         sha512 = "Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==";
       };
     };
-    "chalk-3.0.0" = {
-      name = "chalk";
-      packageName = "chalk";
-      version = "3.0.0";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/chalk/-/chalk-3.0.0.tgz";
-        sha512 = "4D3B6Wf41KOYRFdszmDqMCGq5VV/uMAB273JILmO+3jAlh8X4qDtdtgCR3fxtbLEMzSx22QdhnDcJvu2u1fVwg==";
-      };
-    };
     "chalk-4.1.0" = {
       name = "chalk";
       packageName = "chalk";
@@ -3255,13 +3246,13 @@ let
         sha1 = "a5e654c2e5a2deb5f201d96cefbca80c0ef2f513";
       };
     };
-    "json-parse-even-better-errors-2.3.0" = {
+    "json-parse-even-better-errors-2.3.1" = {
       name = "json-parse-even-better-errors";
       packageName = "json-parse-even-better-errors";
-      version = "2.3.0";
+      version = "2.3.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/json-parse-even-better-errors/-/json-parse-even-better-errors-2.3.0.tgz";
-        sha512 = "o3aP+RsWDJZayj1SbHNQAI8x0v3T3SKiGoZlNYfbUP1S3omJQ6i9CnqADqkSPaOAxwua4/1YWx5CM7oiChJt2Q==";
+        url = "https://registry.npmjs.org/json-parse-even-better-errors/-/json-parse-even-better-errors-2.3.1.tgz";
+        sha512 = "xyFwyhro/JEof6Ghe2iz2NcXoj2sloNsWr/XsERDK/oiPCfaNhl5ONfp+jQdAZRQQ0IJWNzH9zIZF7li91kh2w==";
       };
     };
     "json-schema-0.2.3" = {
@@ -3507,13 +3498,13 @@ let
         sha512 = "VeIAFslyIerEJLXHziedo2basKbMKtTw3vfn5IzG0XTjhAVEJyNHnL2p7vc+wBDSdQuUpNw3M2u6xb9QsAY5Eg==";
       };
     };
-    "log-symbols-3.0.0" = {
+    "log-symbols-4.0.0" = {
       name = "log-symbols";
       packageName = "log-symbols";
-      version = "3.0.0";
+      version = "4.0.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/log-symbols/-/log-symbols-3.0.0.tgz";
-        sha512 = "dSkNGuI7iG3mfvDzUuYZyvk5dD9ocYCYzNU6CYDE6+Xqd+gwme6Z00NS3dUh8mq/73HaEtT7m6W+yUPtU6BZnQ==";
+        url = "https://registry.npmjs.org/log-symbols/-/log-symbols-4.0.0.tgz";
+        sha512 = "FN8JBzLx6CzeMrB0tg6pqlGU1wCrXW+ZXGH481kfsBqer0hToTIiHdjH4Mq8xJUbvATujKCvaREGWpGUionraA==";
       };
     };
     "log4js-6.3.0" = {
@@ -4156,13 +4147,13 @@ let
         sha512 = "iMK1DOQxzzh2MBlVsU42G80mnrvUhqsMh74phHtDlrcTZPK0pH6o7l7DRshK+0YsxDyEuaOkziVdvM3T0QTzpw==";
       };
     };
-    "ora-4.0.5" = {
+    "ora-5.0.0" = {
       name = "ora";
       packageName = "ora";
-      version = "4.0.5";
+      version = "5.0.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ora/-/ora-4.0.5.tgz";
-        sha512 = "jCDgm9DqvRcNIAEv2wZPrh7E5PcQiDUnbnWbAfu4NGAE2ZNqPFbDixmWldy1YG2QfLeQhuiu6/h5VRrk6cG50w==";
+        url = "https://registry.npmjs.org/ora/-/ora-5.0.0.tgz";
+        sha512 = "s26qdWqke2kjN/wC4dy+IQPBIMWBJlSU/0JZhk30ZDBLelW25rv66yutUWARMigpGPzcXHb+Nac5pNhN/WsARw==";
       };
     };
     "os-homedir-1.0.2" = {
@@ -6414,10 +6405,10 @@ in
   nativescript = nodeEnv.buildNodePackage {
     name = "nativescript";
     packageName = "nativescript";
-    version = "7.0.3";
+    version = "7.0.4";
     src = fetchurl {
-      url = "https://registry.npmjs.org/nativescript/-/nativescript-7.0.3.tgz";
-      sha512 = "A9cFC4CkA6UzOIVJdyo5IxQvNJGtJipwSxFWIRO68D/46AOY9UWCMun4Kt9fkqHPFrpviW1Wra5Id0FmFdniJw==";
+      url = "https://registry.npmjs.org/nativescript/-/nativescript-7.0.4.tgz";
+      sha512 = "Y9bo9wXH5iHk1L3Xf0rIsWsqCjJakTq5xyVsk3pGp2Jy8Xthxb015ta9vRsygTQ7GUU7zGC9oX8oVlIATzUBDw==";
     };
     dependencies = [
       sources."@babel/runtime-7.11.2"
@@ -6815,7 +6806,7 @@ in
       sources."js-md5-0.7.3"
       sources."js-tokens-3.0.2"
       sources."jsbn-0.1.1"
-      sources."json-parse-even-better-errors-2.3.0"
+      sources."json-parse-even-better-errors-2.3.1"
       sources."json-schema-0.2.3"
       sources."json-schema-traverse-0.4.1"
       sources."json-stringify-safe-5.0.1"
@@ -6840,16 +6831,7 @@ in
       sources."lodash-node-2.4.1"
       sources."lodash.assign-4.2.0"
       sources."lodash.toarray-4.4.0"
-      (sources."log-symbols-3.0.0" // {
-        dependencies = [
-          sources."ansi-styles-3.2.1"
-          sources."chalk-2.4.2"
-          sources."color-convert-1.9.3"
-          sources."color-name-1.1.3"
-          sources."has-flag-3.0.0"
-          sources."supports-color-5.5.0"
-        ];
-      })
+      sources."log-symbols-4.0.0"
       sources."log4js-6.3.0"
       sources."lru-cache-4.1.5"
       (sources."make-fetch-happen-8.0.9" // {
@@ -6971,11 +6953,7 @@ in
       sources."onetime-5.1.2"
       sources."open-7.1.0"
       sources."optionator-0.8.3"
-      (sources."ora-4.0.5" // {
-        dependencies = [
-          sources."chalk-3.0.0"
-        ];
-      })
+      sources."ora-5.0.0"
       sources."os-homedir-1.0.2"
       sources."os-locale-1.4.0"
       sources."os-tmpdir-1.0.2"
