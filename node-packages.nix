@@ -922,13 +922,13 @@ let
         sha512 = "4kywW+JnEq2c9/aAz9WgRDubREekCDNOSorw8l/0iUvvm7aq+omGZ91/++vxnnyOD2ylflzgjL0Lk6XraqngaQ==";
       };
     };
-    "bl-1.2.2" = {
+    "bl-1.2.3" = {
       name = "bl";
       packageName = "bl";
-      version = "1.2.2";
+      version = "1.2.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/bl/-/bl-1.2.2.tgz";
-        sha512 = "e8tQYnZodmebYDWGH7KMRvtzKXaJHx3BbilrgZCfvyLUYdKpK1t5PSPmpkny/SgiTSCnjfLW7v5rlONXVFkQEA==";
+        url = "https://registry.npmjs.org/bl/-/bl-1.2.3.tgz";
+        sha512 = "pvcNpa0UU69UT341rO6AYy4FVAIkUHuZXRIWbq+zHnsVcRzDDjIAhGuuYoi0d//cwIwtt4pkpKycWEfjdV+vww==";
       };
     };
     "bluebird-3.7.2" = {
@@ -7257,7 +7257,7 @@ in
       sources."balanced-match-1.0.0"
       sources."base64-js-1.3.1"
       sources."bcrypt-pbkdf-1.0.2"
-      sources."bl-1.2.2"
+      sources."bl-1.2.3"
       sources."bluebird-3.7.2"
       sources."brace-expansion-1.1.11"
       sources."buffer-5.6.0"
