@@ -301,6 +301,24 @@ let
         sha512 = "MY5KFYUru0y74IsgM/9asDwb3ERxWxXEu3CRCZEvE7DtT86y1bR1XgtlSliMrptjz4qbivNGMQSvUBpEFJDp1A==";
       };
     };
+    "@kwsites/file-exists-1.1.1" = {
+      name = "_at_kwsites_slash_file-exists";
+      packageName = "@kwsites/file-exists";
+      version = "1.1.1";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@kwsites/file-exists/-/file-exists-1.1.1.tgz";
+        sha512 = "m9/5YGR18lIwxSFDwfE3oA7bWuq9kdau6ugN4H2rJeyhFQZcG9AgSHkQtSD15a8WvTgfz9aikZMrKPHvbpqFiw==";
+      };
+    };
+    "@kwsites/promise-deferred-1.1.1" = {
+      name = "_at_kwsites_slash_promise-deferred";
+      packageName = "@kwsites/promise-deferred";
+      version = "1.1.1";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@kwsites/promise-deferred/-/promise-deferred-1.1.1.tgz";
+        sha512 = "GaHYm+c0O9MjZRu0ongGBRbinu8gVAMd2UZjji6jVmqKtZluZnptXGWhz1E8j8D2HJ3f/yMxKAUC0b+57wncIw==";
+      };
+    };
     "@nativescript/doctor-2.0.3" = {
       name = "_at_nativescript_slash_doctor";
       packageName = "@nativescript/doctor";
@@ -913,13 +931,13 @@ let
         sha512 = "1Yj8h9Q+QDF5FzhMs/c9+6UntbD5MkRfRwac8DoEm9ZfUBZ7tZ55YcGVAzEe4bXsdQHEk+s9S5wsOKVdZrw0tQ==";
       };
     };
-    "binaryextensions-4.13.0" = {
+    "binaryextensions-4.14.0" = {
       name = "binaryextensions";
       packageName = "binaryextensions";
-      version = "4.13.0";
+      version = "4.14.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/binaryextensions/-/binaryextensions-4.13.0.tgz";
-        sha512 = "4kywW+JnEq2c9/aAz9WgRDubREekCDNOSorw8l/0iUvvm7aq+omGZ91/++vxnnyOD2ylflzgjL0Lk6XraqngaQ==";
+        url = "https://registry.npmjs.org/binaryextensions/-/binaryextensions-4.14.0.tgz";
+        sha512 = "UtjVslm7QYvKyVdoc1njm/L1tFUcx2m4x4ceGk/zqZXzdDYuH6/SasK4Bh5UltmObqBPbA9JH7f6Y0Igq2tF5w==";
       };
     };
     "bl-1.2.3" = {
@@ -1896,13 +1914,13 @@ let
         sha1 = "06e0116d3028f6aef4806849eb0ea6a748ae6960";
       };
     };
-    "errlop-3.16.0" = {
+    "errlop-3.17.0" = {
       name = "errlop";
       packageName = "errlop";
-      version = "3.16.0";
+      version = "3.17.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/errlop/-/errlop-3.16.0.tgz";
-        sha512 = "EImVPdre1rvGgt7kNbfGgTVRuCz9VuWDtGRxFpTbIz/i7dpToWs/MMXw6y1sCg69LK7qCj6czNuxhaa0msCyvg==";
+        url = "https://registry.npmjs.org/errlop/-/errlop-3.17.0.tgz";
+        sha512 = "TDlb+YMx08OiaLq1g7Hu0nDca/oLo+LpMEgEI2lybBKE1rB8qsqFgXzEbnn1LU6NfDCfIdVcl3073aO3ZLTYNg==";
       };
     };
     "error-ex-1.3.2" = {
@@ -5155,6 +5173,15 @@ let
         sha512 = "VUJ49FC8U1OxwZLxIbTTrDvLnf/6TDgxZcK8wxR8zs13xpx7xbG60ndBlhNrFi2EMuFRoeDoJO7wthSLq42EjA==";
       };
     };
+    "simple-git-2.20.1" = {
+      name = "simple-git";
+      packageName = "simple-git";
+      version = "2.20.1";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/simple-git/-/simple-git-2.20.1.tgz";
+        sha512 = "aa9s2ZLjXlHCVGbDXQLInMLvLkxKEclqMU9X5HMXi3tLWLxbWObz1UgtyZha6ocHarQtFp0OjQW9KHVR1g6wbA==";
+      };
+    };
     "simple-plist-1.1.0" = {
       name = "simple-plist";
       packageName = "simple-plist";
@@ -6405,10 +6432,10 @@ in
   nativescript = nodeEnv.buildNodePackage {
     name = "nativescript";
     packageName = "nativescript";
-    version = "7.0.4";
+    version = "7.0.6";
     src = fetchurl {
-      url = "https://registry.npmjs.org/nativescript/-/nativescript-7.0.4.tgz";
-      sha512 = "Y9bo9wXH5iHk1L3Xf0rIsWsqCjJakTq5xyVsk3pGp2Jy8Xthxb015ta9vRsygTQ7GUU7zGC9oX8oVlIATzUBDw==";
+      url = "https://registry.npmjs.org/nativescript/-/nativescript-7.0.6.tgz";
+      sha512 = "ief5SWNkQ2zHjKxLvwonT3+ATUSQe7Ue4v/Bv9Phk1Nr8CNcMzJoYIzDmBvjNBUAEQHDiF3aOUryKJLa9M7PSg==";
     };
     dependencies = [
       sources."@babel/runtime-7.11.2"
@@ -6448,6 +6475,8 @@ in
       sources."@jimp/tiff-0.14.0"
       sources."@jimp/types-0.14.0"
       sources."@jimp/utils-0.14.0"
+      sources."@kwsites/file-exists-1.1.1"
+      sources."@kwsites/promise-deferred-1.1.1"
       (sources."@nativescript/doctor-2.0.3" // {
         dependencies = [
           sources."lodash-4.17.15"
@@ -6529,7 +6558,7 @@ in
       sources."bcrypt-pbkdf-1.0.2"
       sources."big-integer-1.6.48"
       sources."binary-extensions-2.1.0"
-      sources."binaryextensions-4.13.0"
+      sources."binaryextensions-4.14.0"
       sources."bmp-js-0.1.0"
       sources."bplist-creator-0.0.8"
       sources."bplist-parser-https://github.com/telerik/node-bplist-parser/tarball/master"
@@ -6632,7 +6661,7 @@ in
       })
       sources."env-paths-2.2.0"
       sources."err-code-1.1.2"
-      sources."errlop-3.16.0"
+      sources."errlop-3.17.0"
       (sources."error-ex-1.3.2" // {
         dependencies = [
           sources."is-arrayish-0.2.1"
@@ -7077,6 +7106,7 @@ in
       sources."shelljs-0.8.4"
       sources."shortid-2.2.12"
       sources."signal-exit-3.0.3"
+      sources."simple-git-2.20.1"
       sources."simple-plist-1.1.0"
       sources."simple-swizzle-0.2.2"
       sources."smart-buffer-1.1.15"
