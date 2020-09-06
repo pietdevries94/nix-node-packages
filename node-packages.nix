@@ -5597,13 +5597,13 @@ let
         sha512 = "WMuOgiua1xb5R56lE0eH6ivpVmg/lq2OHm4+LtT/xtEtPQ+sz6N3bBM6WZ5FvO1lO4IKIOb43qnhoc4qxP5OeA==";
       };
     };
-    "textextensions-5.10.0" = {
+    "textextensions-5.11.0" = {
       name = "textextensions";
       packageName = "textextensions";
-      version = "5.10.0";
+      version = "5.11.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/textextensions/-/textextensions-5.10.0.tgz";
-        sha512 = "/n1fACcnKO/zNoqylNnqoDgOjwHGYLdplybBNaocSMl59Wb5X4s1+JF16sYqIaMuq3NIwPA2+YGhF+UAzcCRMA==";
+        url = "https://registry.npmjs.org/textextensions/-/textextensions-5.11.0.tgz";
+        sha512 = "45T+YGh8oLVTvzBu6RxLEKVt+4XIAuGZislYVzbJg9z3isP1MFkKliiEDZ7haRQLnwfM5LduFYnYFktBRCjS4g==";
       };
     };
     "through-2.3.8" = {
@@ -7154,7 +7154,7 @@ in
           sources."rimraf-2.6.3"
         ];
       })
-      sources."textextensions-5.10.0"
+      sources."textextensions-5.11.0"
       sources."through-2.3.8"
       sources."thunkify-2.1.2"
       sources."timm-1.7.0"
