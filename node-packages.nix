@@ -319,13 +319,13 @@ let
         sha512 = "GaHYm+c0O9MjZRu0ongGBRbinu8gVAMd2UZjji6jVmqKtZluZnptXGWhz1E8j8D2HJ3f/yMxKAUC0b+57wncIw==";
       };
     };
-    "@nativescript/doctor-2.0.3" = {
+    "@nativescript/doctor-2.0.4" = {
       name = "_at_nativescript_slash_doctor";
       packageName = "@nativescript/doctor";
-      version = "2.0.3";
+      version = "2.0.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@nativescript/doctor/-/doctor-2.0.3.tgz";
-        sha512 = "m98wngxYkob2Nc439PjmjOSISov8WnTU62q4hv2rMwExAYyqqIordUFZaKLjrnTRvRKh/HiMQW+2hGhrCFEFvw==";
+        url = "https://registry.npmjs.org/@nativescript/doctor/-/doctor-2.0.4.tgz";
+        sha512 = "rRhigr30GkNI1OZ16K8NnDTrjmnvV84X9jccLA4DKrn6Lx8XpRJta6Er76GQUG7LURhi5pYjT6awLQ9uec4ceg==";
       };
     };
     "@nativescript/schematics-executor-0.0.2" = {
@@ -5020,13 +5020,13 @@ let
         sha512 = "DEqnSRTDw/Tc3FXf49zedI638Z9onwUotBMiUFKmrO2sdFKIbXamXGQ3Axd4qgphxKB4kw/qP1w5kTxnfU1B9Q==";
       };
     };
-    "rxjs-6.6.2" = {
+    "rxjs-6.6.3" = {
       name = "rxjs";
       packageName = "rxjs";
-      version = "6.6.2";
+      version = "6.6.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/rxjs/-/rxjs-6.6.2.tgz";
-        sha512 = "BHdBMVoWC2sL26w//BCu3YzKT4s2jip/WhwsGEDmeKYBhKDZeYezVUnHatYB7L85v5xs0BAQmg6BEYJEKxBabg==";
+        url = "https://registry.npmjs.org/rxjs/-/rxjs-6.6.3.tgz";
+        sha512 = "trsQc+xYYXZ3urjOiJOuCOa5N3jAZ3eiSpQB5hIT8zGlL2QfnHLJ2r7GMkBGuIausdJN1OneaI6gQlsqNHHmZQ==";
       };
     };
     "safe-buffer-5.1.2" = {
@@ -5831,13 +5831,13 @@ let
         sha512 = "e4ERvRV2wb+rRZ/IQeb3jm2VxBsirQLpQhdxplZ2MEzGvDkkMmPglecnNDfSUBivMjP93vRbngYYDQqQ/78bcQ==";
       };
     };
-    "uglify-js-3.10.3" = {
+    "uglify-js-3.10.4" = {
       name = "uglify-js";
       packageName = "uglify-js";
-      version = "3.10.3";
+      version = "3.10.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/uglify-js/-/uglify-js-3.10.3.tgz";
-        sha512 = "Lh00i69Uf6G74mvYpHCI9KVVXLcHW/xu79YTvH7Mkc9zyKUeSPz0owW0dguj0Scavns3ZOh3wY63J0Zb97Za2g==";
+        url = "https://registry.npmjs.org/uglify-js/-/uglify-js-3.10.4.tgz";
+        sha512 = "kBFT3U4Dcj4/pJ52vfjCSfyLyvG9VYYuGYPmrPvAxRw/i7xHiT4VvCev+uiEMcEEiu6UNB6KgWmGtSUYIWScbw==";
       };
     };
     "uid-0.0.2" = {
@@ -6477,7 +6477,7 @@ in
       sources."@jimp/utils-0.14.0"
       sources."@kwsites/file-exists-1.1.1"
       sources."@kwsites/promise-deferred-1.1.1"
-      (sources."@nativescript/doctor-2.0.3" // {
+      (sources."@nativescript/doctor-2.0.4" // {
         dependencies = [
           sources."lodash-4.17.15"
           sources."osenv-0.1.3"
@@ -7096,7 +7096,7 @@ in
       sources."rimraf-2.2.8"
       sources."run-async-2.4.1"
       sources."run-parallel-1.1.9"
-      sources."rxjs-6.6.2"
+      sources."rxjs-6.6.3"
       sources."safe-buffer-5.1.2"
       sources."safer-buffer-2.1.2"
       sources."sax-1.2.4"
@@ -7484,7 +7484,7 @@ in
       sources."restore-cursor-2.0.0"
       sources."rimraf-2.7.1"
       sources."run-async-2.4.1"
-      sources."rxjs-6.6.2"
+      sources."rxjs-6.6.3"
       sources."safe-buffer-5.2.1"
       sources."safer-buffer-2.1.2"
       sources."seek-bzip-1.0.6"
@@ -7529,7 +7529,7 @@ in
       sources."tslib-1.13.0"
       sources."tunnel-agent-0.6.0"
       sources."tweetnacl-0.14.5"
-      sources."uglify-js-3.10.3"
+      sources."uglify-js-3.10.4"
       sources."uid-0.0.2"
       sources."unbzip2-stream-1.4.3"
       sources."unyield-0.0.1"
