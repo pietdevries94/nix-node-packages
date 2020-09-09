@@ -5227,13 +5227,13 @@ let
         sha1 = "5b8b7fc7c8f341c53ed056e929b7bf4de8ba7b5a";
       };
     };
-    "socks-2.4.2" = {
+    "socks-2.4.4" = {
       name = "socks";
       packageName = "socks";
-      version = "2.4.2";
+      version = "2.4.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/socks/-/socks-2.4.2.tgz";
-        sha512 = "cE6P9R+/CET9XhIMvqhRgaNT1GXKIahioMjwwhgYOd+8UQWP50rrFm+faqG/4xkZsjTdVeBYr0Tb246BSC9/fg==";
+        url = "https://registry.npmjs.org/socks/-/socks-2.4.4.tgz";
+        sha512 = "7LmHN4IHj1Vpd/k8D872VGCHJ6yIVyeFkfIBExRmGPYQ/kdUkpdg9eKh9oOzYYYKQhuxavayJHTnmBG+EzluUA==";
       };
     };
     "socks-proxy-agent-3.0.1" = {
@@ -6871,7 +6871,7 @@ in
           sources."https-proxy-agent-5.0.0"
           sources."lru-cache-6.0.0"
           sources."smart-buffer-4.1.0"
-          sources."socks-2.4.2"
+          sources."socks-2.4.4"
           sources."socks-proxy-agent-5.0.0"
           sources."yallist-4.0.0"
         ];
