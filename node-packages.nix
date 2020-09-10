@@ -6432,10 +6432,10 @@ in
   nativescript = nodeEnv.buildNodePackage {
     name = "nativescript";
     packageName = "nativescript";
-    version = "7.0.6";
+    version = "7.0.7";
     src = fetchurl {
-      url = "https://registry.npmjs.org/nativescript/-/nativescript-7.0.6.tgz";
-      sha512 = "ief5SWNkQ2zHjKxLvwonT3+ATUSQe7Ue4v/Bv9Phk1Nr8CNcMzJoYIzDmBvjNBUAEQHDiF3aOUryKJLa9M7PSg==";
+      url = "https://registry.npmjs.org/nativescript/-/nativescript-7.0.7.tgz";
+      sha512 = "Vp9Qe4DNtdEnGCU3dfUIPnyXQO8cpbzg61AGZzEI7m2pdNMnk9lrPihz1TJW3dgTUfKzZub4UD8+hDQ1LzHopw==";
     };
     dependencies = [
       sources."@babel/runtime-7.11.2"
