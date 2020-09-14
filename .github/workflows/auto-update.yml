@@ -5,6 +5,8 @@ on:
 jobs:
   check-and-push-updates:
     runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.FETCH_TOKEN }}
     steps:
     - uses: actions/checkout@v2.3.1
     - uses: cachix/install-nix-action@v10
